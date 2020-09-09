@@ -1,13 +1,13 @@
 # Starbucks Capstone Challenge - Data processing and analysis
 
 ## Introduction<a name="introduction"></a>
-In this project, we work with Starbucks' datasets. We process and analize the one-month data to get insights which helps Starbucks in making decisions on its future campaign. Those detailed findings can be found in the conclusion of my notebook.
+This challenge is a part of the Udacity capstone, we will work with Starbucks' datasets. We process and analyze the one-month data to get insights which helps Starbucks in making decisions on its future campaign. The detailed findings can be found in the conclusion of my notebook.
 
-The main purpose of this project is to understand the business flow. So far, existing solutions can be found in the Internet. However, the authors simply evaluated the number of *offer_received*, *offer_viewed* and *offer_completed* in the `transaction data` file while ignoring their orders and the time instant those event happens. As a result, the provided numbers are incorrect though the findings are still considered. I present my assumption and the workflows in the first part (Part #0) of my notebook.
+The main purpose of this project is to understand the business flow. So far, existing solutions can be found on the Internet. However, the authors simply evaluated the number of _offer_received_, _offer_viewed_ and _offer_completed_ in the `customer transaction` history while ignoring their orders and the time instant those events happened. As a result, the provided numbers are incorrect though the findings are still considered. The detailed assumptions and workflows con be found in the first part (Part #0) of my notebook.
 
-After data analysis, two possible tasks which can be started includes (i) Customer segmentation and (ii) Customer predictation (i.e., to predict whether customer respond to offer or not). However, I decided to NOT cover them here because:
-* This task has smaller datasets compared to the Arvato project (i.e. another project of mine). 
-* Starbucks has many products, so amount of data for only one product is not enough to clusify customers
+After data analysis, two possible tasks which can be started include (i) Customer segmentation and (ii) Customer prediction (i.e., to predict whether customers respond to offers or not). However, I decided to NOT cover them here because:
+* This task has smaller datasets compared to the Arvato project (i.e. another project of mine)
+* Starbucks has many products, so amount of data for only one product is not enough to classify customers
 
 ## Dataset<a name="data"></a>
 The Starbucks' data is contained in three files:
